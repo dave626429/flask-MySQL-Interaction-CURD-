@@ -1,5 +1,0 @@
-mysql_host: 'localhost'
-mysql_user: 'root'
-mysql_password: 'srinivas'
-mysql_db: 'pfdb'
-secret_key: '27605dff6a277a5f52264b93a867e24c'
