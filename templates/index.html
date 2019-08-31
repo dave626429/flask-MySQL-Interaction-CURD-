@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+ <h1>Welcome to Employee Details portal</h1>
+
+            <form method="POST" action="">
+ 
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-sm" id="pwd" placeholder="Name/ID/Phone">
+                </div>
+                <label for="search">(Either 'ID' or 'Name' or 'Phone Number')</label>
+                </br>
+                <input class="btn btn-sm btn-outline-info" type="submit">
+                <br>
+
+            </form>
+            <p></p>
+            <div class="form-group">
+                <a href="/addEmp"><input class="btn btn-sm btn-outline-info" type="button" value="Add Employee"></a>
+            </div>
+            
+{% endblock %}
+           

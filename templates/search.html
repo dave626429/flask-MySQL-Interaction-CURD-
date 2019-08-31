@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <form action="" method="POST">
+
+        <!-- adding CSRF(Cross-Side Request Forgery) tokken linked to SCCRET KEY mentioned in yaml-->
+        {{ form.hidden_tag() }}
+
+        <fieldset class="form-group">
+            <h1>Welcome to Employee Details portal</h1>
+            <div class="form-group">
+                {{ form.search(class="form-control") }}
+            </div>
+            <label for="search">(Either 'Designation' or 'Name' or 'Phone Number')</label>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </fieldset>
+
+    </form>
+
+</div>
+
+<div class="content-section">
+    <div class="form-group">
+        <a href="/addEmp"><button class="btn-sm" type="submit">Add Employee</button></a>
+        <a href="/user"><button class="btn-sm" type="submit">Employees List</button></a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Welcome to Employee Details portal</h1>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in userDetails %}
+            <tr>
+                <td>{{user[0]}}</td>
+                <td>{{user[1]}}</td>
+                <td>{{user[2]}}</td>
+                <td>{{user[3]}}</td>
+                <td> <a href="/delete/{{user[0]}}"><input type="button" value="Delete"></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<a href="/addEmp"><button class="btn-sm" type="submit">Add Employee</button></a>
+{% endblock %}
