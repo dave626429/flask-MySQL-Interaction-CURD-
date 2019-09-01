@@ -13,8 +13,11 @@ This is python built application, is for connecting MySQL database with flask wi
 >>[Python Installation](https://www.python.org/)
 
 >>[Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
+
 >>>[Installation](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
+
 >>>flask-mysqldb(package)
+
 >>>flask-wtf(package)
 
 >>.*yaml* file
