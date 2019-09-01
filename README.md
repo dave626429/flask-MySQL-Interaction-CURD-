@@ -10,7 +10,7 @@ This is python built application, is for connecting MySQL database with flask wi
 
 >**Application Requirements**
 
->>[Python Installation](https://www.python.org/)
+>>[Python Installation](https://www.python.org/downloads/)
 
 >>[Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
 
