@@ -10,10 +10,10 @@ This is python built application, is for connecting MySQL database with flask wi
 
 >**Application Requirements**
 
->>[Python Installation]([https://www.python.org](https://www.python.org/))
+>>[Python Installation](https://www.python.org/)
 
->>[Flask]([https://flask.palletsprojects.com/en/1.1.x/installation/](https://flask.palletsprojects.com/en/1.1.x/installation/))
->>>[Installation]([https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask])
+>>[Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
+>>>[Installation](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
 >>>flask-mysqldb(package)
 >>>flask-wtf(package)
 
@@ -24,3 +24,6 @@ This is python built application, is for connecting MySQL database with flask wi
 >>Git and GitHub
 
 >**References**
+
+
+
