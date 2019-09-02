@@ -99,7 +99,28 @@ This package will be used for __form classes validations__ in this application d
 
 This package will be used create __form classes__ in this application development.
 
+### 2.3  [.yaml file](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
+> ***Installing 'yaml' or 'Pyyaml'***
+
+> >__pip install Pyyaml  -> Python 3.6.x and above__
+
+> ***[Please refer the Documentation for more information on 'yaml files']*** 
+
+> OR
+> >__pip install yaml  -> Python 2.x.x__
+
+For this application, Python 3.7.4 is being used. In this application __".yaml files"__  is used to config __Database URL, User, Password, secret key( for CSRF) and Database Created in the MySQL server 8.0__, and stored as file with .yaml extension  . 
+
+### 2.4 [8.0.12 MySQL Community Server - GPL](https://downloads.mysql.com/archives/community/)
+
+To store data a database is required and with that a bridge can be built to perform CRUD operations. In this application MySQL Databases is used to store incoming employee data.
+
+### 2.5 [Git and GitHub](https://git-scm.com/download/win)
+
+> https://git-scm.com/download/win is the link to install __Git__ on your System(Windows). 
+
+This is used to create a repository on a System, in which your project will be saved and modifications on the project can be monitored and can be linked up with GitHub.   
 
 
 
