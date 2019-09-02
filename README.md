@@ -11,15 +11,15 @@ This is python built application, is for connecting MySQL database with flask wi
 
   
 
->>2.1.     [Python 3.7.4](https://www.python.org/downloads/)  
+>>2.1     [Python 3.7.4](https://www.python.org/downloads/)  
 
   
 
->>2.2. [flask 1.1.1](https://flask.palletsprojects.com/en/1.1.x/installation/)
+>>2.2 [flask 1.1.1](https://flask.palletsprojects.com/en/1.1.x/installation/)
 
   
 
->>>2.2.1. [Installation](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
+>>>2.2.1 [Installation](https://flask.palletsprojects.com/en/1.1.x/installation/#install-flask)
 
   
 
@@ -29,19 +29,19 @@ This is python built application, is for connecting MySQL database with flask wi
 
 >>>2.2.3. [flask-wtf](https://flask-wtf.readthedocs.io/en/stable/install.html)
 
->>> 2.2.4. [flask-forms](https://flask-wtf.readthedocs.io/en/stable/install.html)
+>>> 2.2.4 [flask-forms](https://flask-wtf.readthedocs.io/en/stable/install.html)
 
   
 
->>2.3.  [.yaml file](https://pyyaml.org/wiki/PyYAMLDocumentation)
+>>2.3  [.yaml file](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
   
 
->>2.4. [8.0.12 MySQL Community Server - GPL](https://downloads.mysql.com/archives/community/)
+>>2.4 [8.0.12 MySQL Community Server - GPL](https://downloads.mysql.com/archives/community/)
 
   
 
->>2.5. [Git and GitHub](https://git-scm.com/download/win)
+>>2.5 [Git and GitHub](https://git-scm.com/download/win)
 
   
 
@@ -57,7 +57,7 @@ This is python built application, is for connecting MySQL database with flask wi
 
 ## 2. Application Requirements and Installations
 
-### 2.1. [Python 3.7.4](https://www.python.org/downloads/)
+### 2.1 [Python 3.7.4](https://www.python.org/downloads/)
 
 > To check availability of python in your System(__Windows__), __go to command prompt and type python__, if a message pops up saying the below message then python is not available in your system,
 >> __'python' is not recognized as an internal or external command, operable program or batch file.__
@@ -67,7 +67,7 @@ This is python built application, is for connecting MySQL database with flask wi
 
 > __NOTE:__ Type __python__ in command prompt and python interpreter will open or type __python --version__, the version installed will be displayed.
 
-### 2.2. [flask 1.1.1](https://flask.palletsprojects.com/en/1.1.x/installation/)
+### 2.2 [flask 1.1.1](https://flask.palletsprojects.com/en/1.1.x/installation/)
 >This is a micro framework which will sitting upon on your python application.
 >
 > ***Installing flask***
@@ -75,7 +75,7 @@ This is python built application, is for connecting MySQL database with flask wi
 
 >__NOTE:__ Type __flask --version__ in command prompt and, the version installed will be displayed or, open __python interpreter__ and use __help()__ to see the install package and modules.
 
- **2.2.2. [flask-mysqldb](https://flask-mysqldb.readthedocs.io/en/latest/)**
+ **2.2.2 [flask-mysqldb](https://flask-mysqldb.readthedocs.io/en/latest/)**
 
 > ***Installing flask-mysqldb***
 
@@ -83,7 +83,7 @@ This is python built application, is for connecting MySQL database with flask wi
 
 This package will be used to establish connection between your __MySQL Database__ and __flask__   
 
-**2.2.3. [flask-wtf](https://flask-wtf.readthedocs.io/en/stable/install.html)**
+**2.2.3 [flask-wtf](https://flask-wtf.readthedocs.io/en/stable/install.html)**
 
 > ***Installing flask-wtf***
 
@@ -91,7 +91,7 @@ This package will be used to establish connection between your __MySQL Database_
 
 This package will be used for __form classes validations__ in this application development.
 
-**2.2.3. [flask-forms](https://flask-wtf.readthedocs.io/en/stable/install.html)**
+**2.2.3 [flask-forms](https://flask-wtf.readthedocs.io/en/stable/install.html)**
 
 > ***Installing flask-forms***
 

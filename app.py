@@ -7,8 +7,13 @@ from forms import Search, AddEmployee
 # Flask Instance creation
 app=Flask(__name__)
 
+
+
+
 # Loading 'yaml file' and importing variables
 db = yaml.safe_load(open('db.yaml'))
+
+
 
 
 app.config['SECRET_KEY']= db['secret_key']
@@ -22,6 +27,11 @@ app.config['MYSQL_DB'] = db['mysql_db']
 # Instance creation of MySQL database connecting to Flask
 mysql=MySQL(app)
 
+
+
+
+
+# fetches all records from Database 
 @app.route('/user', methods=['GET','POST'])
 def user():
     cur=mysql.connection.cursor()
@@ -35,7 +45,7 @@ def user():
         return render_template('user.html',userDetails=userDetails)
     return render_template('no_emp.html')    
     
-
+# deletes a record from database
 @app.route('/delete/<string:ename>', methods=['GET','POST'])
 def delete(ename):
     cur=mysql.connection.cursor()
@@ -43,7 +53,8 @@ def delete(ename):
     mysql.connection.commit()
     cur.close()
     return redirect('/user')
-    
+
+# adds an employee's details    
 @ app.route("/addEmp", methods=['POST','GET'])
 def addEmp():
 
@@ -78,6 +89,7 @@ def addEmp():
         return redirect('/addEmp')
     return render_template('addEmployee.html', form=form)
 
+# seaching employee on Name, Designation or phone 
 @ app.route("/", methods=['POST','GET'])
 def search():
     form = Search()
@@ -109,6 +121,10 @@ def search():
     return render_template('search.html', form=form)
 
 
+
+
+
+# for activating debug mode
 if __name__=='__main__':
     app.run(debug=True)
 
